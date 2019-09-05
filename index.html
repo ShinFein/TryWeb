@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang=id>	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CV</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+		<link href="main.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="profile col-12">
+			<img alt="myimg" src="Assets/me.jpg">
+			<h5 class="font-white">Kevin Andreejan</h5>
+				<div class="nav">
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+					<a style="color:red;" href="index.html">Home</a>
+					<a href="about">About Me</a>
+		  			<a href="folio">Portfolio</a>
+		  			<a href="service">Services</a>
+		  			<a href="getintouch">Contact</a>
+				</div>
+		  		<div class="socmed col-12">
+			  		<a href="#"><img alt="ig" src="Assets/instagram.png"></a>
+			  		<a href="#"><img alt="fb" src="Assets/facebook.png"></a>
+			  	</div>
+  			<h3 class="font-white col-12">© 2019 All Rights Reserved Kevin Andreejan Susanto</h3>
+		</div>
+		<div id="main">
+	 		 <div class="col-12 center vertical">
+	 			<img alt="background" src="Assets/dims.jpg">
+				<h4 class="font-white">Hello......</h4>
+				<h1 class="font-white">I'm Kevin.</h1>
+				<h3 class="font-white">Web Developer - Programmer - Javascript Enthusiast - Fullstack Developer</h3>
+			</div>
+		</div>
+		<div id="mySidenav" class="slidernav col-12">
+			<img alt="myimg" src="Assets/me.jpg">
+			<h5 class="font-white">Kevin Andreejan</h5>
+			<div class="slidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a style="color:red;" href="index.html">Home</a>
+				<a href="about">About Me</a>
+			  	<a href="folio">Portfolio</a>
+			  	<a href="service">Services</a>
+			  	<a href="getintouch">Contact</a>
+		  	</div>
+		  	<div class="miniimg col-12">
+				<a href="#"><img alt="ig" src="Assets/instagram.png"></a>
+				<a href="#"><img alt="fb" src="Assets/facebook.png"></a>
+			</div>
+		  	<h3 class="font-white col-12">© 2019 All Rights Reserved<br> Kevin Andreejan Susanto</h3>
+		</div>
+	</body>
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.display = "inline";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.display = "none";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+</script>
+</html>
