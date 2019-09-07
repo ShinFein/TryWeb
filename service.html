@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang=id>	
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CV</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+		<link href="main.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<div class="profile col-12">
+			<img alt="myimg" src="Assets/me.jpg">
+			<h5 class="font-white">Kevin Andreejan</h5>
+				<div class="nav">
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+					<a href="index.html">Home</a>
+					<a href="bio.html">About Me</a>
+		  			<a href="folio.html">Portfolio</a>
+		  			<a style="color:red;" href="service.html">Services</a>
+		  			<a href="getintouch.html">Contact</a>
+				</div>
+		  		<div class="socmed col-12">
+			  		<a href="https://www.instagram.com/shinfeinse/"><img alt="ig" src="Assets/instagram.png"></a>
+			  		<a href="https://www.facebook.com/vinz.cool.7"><img alt="fb" src="Assets/facebook.png"></a>
+			  	</div>
+  			<h3 class="font-white col-12">© 2019 All Rights Reserved Kevin Andreejan Susanto</h3>
+		</div>
+		<div id="mySidenav" class="slidernav col-12">
+			<img alt="myimg" src="Assets/me.jpg">
+			<h5 class="font-white">Kevin Andreejan</h5>
+			<div class="slidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="bio.html">About Me</a>
+			  	<a href="folio.html">Portfolio</a>
+			  	<a style="color:red;" href="service.html">Services</a>
+			  	<a href="getintouch.html">Contact</a>
+		  	</div>
+		  	<div class="miniimg col-12">
+				<a href="https://www.instagram.com/shinfeinse/"><img alt="ig" src="Assets/instagram.png"></a>
+				<a href="https://www.facebook.com/vinz.cool.7"><img alt="fb" src="Assets/facebook.png"></a>
+			</div>
+		  	<h3 class="font-white col-12">© 2019 All Rights Reserved<br> Kevin Andreejan Susanto</h3>
+		</div>
+		<div class="wrapport">
+				<img id="myimg" alt="scenery" src="Assets/service.jpg">
+			</div>
+		</div>
+		<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.display = "inline";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.display = "none";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+	</body>
+</html>
